@@ -1,0 +1,14 @@
+body{
+	background: pink;
+	font-size: 20px;
+	color: blue;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cl{
+	clear: both;
+}

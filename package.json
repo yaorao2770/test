@@ -1,0 +1,23 @@
+{
+  "name": "test-chalk",
+  "version": "1.0.0",
+  "description": "test chalk ",
+  "main": "index.js",
+  "scripts": {
+    "minicss": "./node_modules/.bin/gulp minifycss",
+    "minijs": "./node_modules/.bin/gulp minifyjs"
+  },
+  "bin": {
+    "test-chalk": "index.js"
+  },
+  "author": "cy",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}
